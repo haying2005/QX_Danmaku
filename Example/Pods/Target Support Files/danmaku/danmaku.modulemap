@@ -1,0 +1,6 @@
+framework module danmaku {
+  umbrella header "danmaku-umbrella.h"
+
+  export *
+  module * { export * }
+}
