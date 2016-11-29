@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'danmaku_Example' do
+  pod 'danmaku', :path => '../'
+
+  target 'danmaku_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
