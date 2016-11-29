@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'danmaku'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of danmaku.'
+  s.summary          = '简单的视频直播app弹幕'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
